@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">PhiraForge</string>
+    <string name="app_desc">Phira 音游谱面自动生成器</string>
+    <string name="app_version">1.0.0</string>
+
+    <!-- Navigation -->
+    <string name="nav_generate">生成</string>
+    <string name="nav_preview">预览</string>
+    <string name="nav_settings">设置</string>
+    <string name="nav_about">关于</string>
+
+    <!-- Generate screen -->
+    <string name="generate_title">谱面生成</string>
+    <string name="generate_import_audio">导入音频</string>
+    <string name="generate_import_audio_desc">选择本地音频文件（MP3/WAV/OGG/FLAC/M4A）</string>
+    <string name="generate_audio_selected">已选择音频</string>
+    <string name="generate_difficulty">难度</string>
+    <string name="generate_difficulty_easy">Easy</string>
+    <string name="generate_difficulty_normal">Normal</string>
+    <string name="generate_difficulty_hard">Hard</string>
+    <string name="generate_difficulty_extra">Extra</string>
+    <string name="generate_bpm_hint">BPM（留空自动检测）</string>
+    <string name="generate_start">开始生成</string>
+    <string name="generate_cancel">取消生成</string>
+    <string name="generate_ai_enhance">AI 增强</string>
+    <string name="generate_ai_enhance_desc">使用大模型 API 优化谱面结构（可选）</string>
+    <string name="generate_progress_decoding">解码音频中…</string>
+    <string name="generate_progress_analyzing">分析节奏中…</string>
+    <string name="generate_progress_generating">生成谱面中…</string>
+    <string name="generate_progress_complete">生成完成</string>
+    <string name="generate_progress_ai">AI 增强处理中…</string>
+    <string name="generate_progress_fallback">AI 不可用，回退离线生成…</string>
+    <string name="generate_no_audio">请先导入音频文件</string>
+    <string name="generate_success">谱面生成成功</string>
+    <string name="generate_failed">生成失败：%1$s</string>
+    <string name="generate_export">导出谱面</string>
+    <string name="generate_preview">预览谱面</string>
+
+    <!-- Preview screen -->
+    <string name="preview_title">谱面预览</string>
+    <string name="preview_empty">尚未生成谱面</string>
+    <string name="preview_play">播放</string>
+    <string name="preview_pause">暂停</string>
+    <string name="preview_timeline">时间轴</string>
+    <string name="preview_stats">统计</string>
+    <string name="preview_note_count">物量</string>
+    <string name="preview_judge_line_count">判定线数</string>
+    <string name="preview_duration">时长</string>
+    <string name="preview_bpm">BPM</string>
+    <string name="preview_nps">NPS</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_ai">AI 配置</string>
+    <string name="settings_ai_enabled">启用 AI 增强</string>
+    <string name="settings_ai_provider">AI 服务商</string>
+    <string name="settings_ai_api_key">API Key</string>
+    <string name="settings_ai_api_url">API 地址</string>
+    <string name="settings_ai_model">模型名称</string>
+    <string name="settings_ai_timeout">超时（秒）</string>
+    <string name="settings_ai_test">测试连接</string>
+    <string name="settings_ai_test_success">连接成功</string>
+    <string name="settings_ai_test_failed">连接失败：%1$s</string>
+    <string name="settings_ai_test_testing">测试中…</string>
+    <string name="settings_general">通用</string>
+    <string name="settings_theme_mode">主题模式</string>
+    <string name="settings_theme_system">跟随系统</string>
+    <string name="settings_theme_light">浅色</string>
+    <string name="settings_theme_dark">深色</string>
+    <string name="settings_default_difficulty">默认难度</string>
+    <string name="settings_chart_offset">谱面偏移（ms）</string>
+    <string name="settings_export_format">导出格式</string>
+    <string name="settings_export_path">导出路径</string>
+
+    <!-- About -->
+    <string name="about_title">关于</string>
+    <string name="about_version">版本</string>
+    <string name="about_description">PhiraForge 是一款 Android 端 Phira 音游谱面自动生成工具。导入本地音频后自动分析节奏，生成可玩的 Phira 谱面，并支持 AI 大模型 API 增强生成。</string>
+    <string name="about_developer">开发者：mouya</string>
+    <string name="about_github">GitHub 仓库</string>
+    <string name="about_license">许可证</string>
+    <string name="about_open_source">开源许可</string>
+    <string name="about_disclaimer">免责声明</string>
+    <string name="about_privacy">隐私政策</string>
+
+    <!-- Permissions -->
+    <string name="permission_audio_title">需要音频访问权限</string>
+    <string name="permission_audio_desc">PhiraForge 需要访问音频文件以分析节奏并生成谱面。请授予权限。</string>
+    <string name="permission_grant">授予权限</string>
+    <string name="permission_denied">权限被拒绝。请在系统设置中手动授予音频访问权限。</string>
+
+    <!-- Errors -->
+    <string name="error_audio_decode">音频解码失败</string>
+    <string name="error_audio_too_short">音频时长过短（不足 5 秒）</string>
+    <string name="error_no_onsets">未能检测到节奏点</string>
+    <string name="error_chart_empty">谱面生成结果为空</string>
+    <string name="error_export_failed">导出失败：%1$s</string>
+    <string name="error_ai_config_missing">AI 配置不完整，请检查设置</string>
+    <string name="error_generic">发生错误：%1$s</string>
+
+    <!-- Common -->
+    <string name="common_ok">确定</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_retry">重试</string>
+    <string name="common_save">保存</string>
+    <string name="common_share">分享</string>
+    <string name="common_close">关闭</string>
+    <string name="common_loading">加载中…</string>
+</resources>
