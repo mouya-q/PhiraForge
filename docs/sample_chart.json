@@ -1,0 +1,205 @@
+{
+  "META": {
+    "offset": 0,
+    "RPEVersion": 160
+  },
+  "BPMList": [
+    {
+      "bpm": 120.0,
+      "startTime": {
+        "num": 0,
+        "den": 1,
+        "beats": 0.0
+      }
+    }
+  ],
+  "judgeLineList": [
+    {
+      "Name": "JudgeLine 1",
+      "Texture": "line.png",
+      "father": -1,
+      "rotateWithFather": 0,
+      "eventLayers": [
+        {
+          "alphaEvents": [
+            {
+              "easingLeft": 0.0,
+              "easingRight": 1.0,
+              "bezier": 0,
+              "bezierPoints": [0.0, 0.0, 0.0, 0.0],
+              "easingType": 1,
+              "start": 255.0,
+              "end": 255.0,
+              "startTime": { "num": 0, "den": 1, "beats": 0.0 },
+              "endTime": { "num": 16, "den": 1, "beats": 16.0 }
+            }
+          ],
+          "moveXEvents": [
+            {
+              "easingLeft": 0.0,
+              "easingRight": 1.0,
+              "bezier": 0,
+              "bezierPoints": [0.0, 0.0, 0.0, 0.0],
+              "easingType": 1,
+              "start": 0.0,
+              "end": 0.0,
+              "startTime": { "num": 0, "den": 1, "beats": 0.0 },
+              "endTime": { "num": 16, "den": 1, "beats": 16.0 }
+            }
+          ],
+          "moveYEvents": [
+            {
+              "easingLeft": 0.0,
+              "easingRight": 1.0,
+              "bezier": 0,
+              "bezierPoints": [0.0, 0.0, 0.0, 0.0],
+              "easingType": 1,
+              "start": 0.0,
+              "end": 0.0,
+              "startTime": { "num": 0, "den": 1, "beats": 0.0 },
+              "endTime": { "num": 16, "den": 1, "beats": 16.0 }
+            }
+          ],
+          "rotateEvents": [
+            {
+              "easingLeft": 0.0,
+              "easingRight": 1.0,
+              "bezier": 0,
+              "bezierPoints": [0.0, 0.0, 0.0, 0.0],
+              "easingType": 1,
+              "start": 0.0,
+              "end": 0.0,
+              "startTime": { "num": 0, "den": 1, "beats": 0.0 },
+              "endTime": { "num": 16, "den": 1, "beats": 16.0 }
+            }
+          ],
+          "speedEvents": [
+            {
+              "easingLeft": 0.0,
+              "easingRight": 1.0,
+              "bezier": 0,
+              "bezierPoints": [0.0, 0.0, 0.0, 0.0],
+              "easingType": 1,
+              "start": 1.0,
+              "end": 1.0,
+              "startTime": { "num": 0, "den": 1, "beats": 0.0 },
+              "endTime": { "num": 16, "den": 1, "beats": 16.0 }
+            }
+          ]
+        }
+      ],
+      "extended": null,
+      "notes": [
+        {
+          "type": 1,
+          "above": 1,
+          "startTime": { "num": 0, "den": 1, "beats": 0.0 },
+          "endTime": { "num": 0, "den": 1, "beats": 0.0 },
+          "positionX": 0.0,
+          "yOffset": 0.0,
+          "alpha": 255,
+          "hitsound": null,
+          "size": 1.0,
+          "speed": 1.0,
+          "isFake": 0,
+          "visibleTime": 1000000000.0,
+          "tint": null,
+          "tintHitEffects": null,
+          "judgeArea": null
+        },
+        {
+          "type": 1,
+          "above": 0,
+          "startTime": { "num": 1, "den": 1, "beats": 1.0 },
+          "endTime": { "num": 1, "den": 1, "beats": 1.0 },
+          "positionX": 100.0,
+          "yOffset": 0.0,
+          "alpha": 255,
+          "hitsound": null,
+          "size": 1.0,
+          "speed": 1.0,
+          "isFake": 0,
+          "visibleTime": 1000000000.0,
+          "tint": null,
+          "tintHitEffects": null,
+          "judgeArea": null
+        },
+        {
+          "type": 1,
+          "above": 1,
+          "startTime": { "num": 2, "den": 1, "beats": 2.0 },
+          "endTime": { "num": 2, "den": 1, "beats": 2.0 },
+          "positionX": -100.0,
+          "yOffset": 0.0,
+          "alpha": 255,
+          "hitsound": null,
+          "size": 1.0,
+          "speed": 1.0,
+          "isFake": 0,
+          "visibleTime": 1000000000.0,
+          "tint": null,
+          "tintHitEffects": null,
+          "judgeArea": null
+        },
+        {
+          "type": 2,
+          "above": 1,
+          "startTime": { "num": 3, "den": 1, "beats": 3.0 },
+          "endTime": { "num": 4, "den": 1, "beats": 4.0 },
+          "positionX": 200.0,
+          "yOffset": 0.0,
+          "alpha": 255,
+          "hitsound": null,
+          "size": 1.0,
+          "speed": 1.0,
+          "isFake": 0,
+          "visibleTime": 1000000000.0,
+          "tint": null,
+          "tintHitEffects": null,
+          "judgeArea": null
+        },
+        {
+          "type": 3,
+          "above": 0,
+          "startTime": { "num": 5, "den": 1, "beats": 5.0 },
+          "endTime": { "num": 5, "den": 1, "beats": 5.0 },
+          "positionX": -200.0,
+          "yOffset": 0.0,
+          "alpha": 255,
+          "hitsound": null,
+          "size": 1.0,
+          "speed": 1.0,
+          "isFake": 0,
+          "visibleTime": 1000000000.0,
+          "tint": null,
+          "tintHitEffects": null,
+          "judgeArea": null
+        },
+        {
+          "type": 4,
+          "above": 1,
+          "startTime": { "num": 6, "den": 1, "beats": 6.0 },
+          "endTime": { "num": 6, "den": 1, "beats": 6.0 },
+          "positionX": 50.0,
+          "yOffset": 0.0,
+          "alpha": 255,
+          "hitsound": null,
+          "size": 1.0,
+          "speed": 1.0,
+          "isFake": 0,
+          "visibleTime": 1000000000.0,
+          "tint": null,
+          "tintHitEffects": null,
+          "judgeArea": null
+        }
+      ],
+      "isCover": 1,
+      "zOrder": 0,
+      "attachUI": null,
+      "posControl": [],
+      "sizeControl": [],
+      "alphaControl": [],
+      "yControl": []
+    }
+  ]
+}
